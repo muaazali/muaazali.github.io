@@ -1,2 +1,45 @@
+@import "./Theme.scss";
+
 .App {
+    height: 100vh;
+    transition-duration: 1s;
+    
+    @media (min-width: 768px){
+      padding: 40px;
+    }
+    
+    .card-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+
+      @media (min-width: 768px){
+        border-radius: 10px;
+      }
+    }
+}
+
+
+@media (prefers-color-scheme: light) {
+  .App {
+    background: rgb(0,255,117);
+    background: linear-gradient(90deg, rgba(0,255,117,1) 0%, rgba(0,212,255,1) 100%);
+    color: $light-bodyColor;
+
+    .card-container {
+      background-color: $light-cardBackground;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .App {
+    background-color: $dark-mainBackground;
+    color: $dark-bodyColor;
+
+    .card-container {
+      background-color: $dark-cardBackground;
+    }
+  }
 }

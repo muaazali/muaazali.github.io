@@ -1,0 +1,54 @@
+@import "../../Theme.scss";
+
+.profile-container {
+    width: 100%;
+    text-align: center;
+
+    .profile-picture {
+        max-width: 200px;
+        border-radius: 50%;
+    }
+
+    .name {
+        font-size: xx-large;
+        font-weight: 400;
+        margin-top: 5px;
+    }
+
+    .icons-container {
+        margin-top: 10px;
+    }
+
+    .icons-container * {
+        font-size: x-large;
+        margin: 0px 5px;
+    }
+
+    @media (prefers-color-scheme: light) {
+        .profile-picture {
+            border: 3px solid $light-profilePicBorder;
+        }
+
+        .title {
+            color: $light-titleColor;
+        }
+
+        .icons-container {
+            color: $light-bodyColor;
+        }
+    }
+    
+    @media (prefers-color-scheme: dark) {
+        .profile-picture {
+            border: 3px solid $dark-profilePicBorder;
+        }
+
+        .title {
+            color: $light-titleColor;
+        }
+
+        .icons-container * {
+            color: $dark-bodyColor !important;
+        }
+    }
+}
