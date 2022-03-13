@@ -1,0 +1,16 @@
+[
+  {
+    "institute-name": "FAST - NUCES",
+    "institute-location": "Lahore",
+    "institute-picture-url": "Assets/Images/fast-nuces.png",
+    "degree-name": "Bachelor of Science (Computer Science)",
+    "grade": "CGPA: 3.27"
+  },
+  {
+    "institute-name": "Government College University",
+    "institute-location": "Lahore",
+    "institute-picture-url": "Assets/Images/gcu.jpg",
+    "degree-name": "Faculty of Science (Pre-Engineering)",
+    "grade": "Grade: A"
+  }
+]
