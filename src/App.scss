@@ -1,23 +1,40 @@
 @import "./Theme.scss";
 
 .App {
-    height: 100vh;
-    transition-duration: 1s;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-    @media (min-width: 768px){
-      padding: 40px;
-    }
-    
-    .card-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 20px;
+    .content-wrapper {
+      width: 100%;
+      transition-duration: 1s;
 
-      @media (min-width: 768px){
-        border-radius: 10px;
+      @media (min-width: 576px){
+      	padding: 40px;
+      }
+
+      .card-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px;
+      
+        @media (min-width: 768px){
+          border-radius: 10px;
+        }
+
+        .heading {
+          font-weight: bold;
+          font-size: x-large;
+          font-family: $headingFont;
+          margin: 20px 0px;
+        }
       }
     }
+
 }
 
 
@@ -29,6 +46,7 @@
 
     .card-container {
       background-color: $light-cardBackground;
+      box-shadow: 10px 10px 50px black;
     }
   }
 }
@@ -40,6 +58,7 @@
 
     .card-container {
       background-color: $dark-cardBackground;
+      box-shadow: 0px 0px 50px black;
     }
   }
 }

@@ -1,0 +1,89 @@
+@import "/src/Theme.scss";
+
+.container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+
+    @media (max-width: 767.98px){
+    	display: block;
+    }
+
+    .left {
+        text-align: center;
+        padding: 0px 5px;
+
+        @media (min-width: 768px){
+            border-right: 1px solid;
+            text-align: end;
+        	padding: 0px 20px;
+        }
+
+        .company-picture {
+            max-width: 40px;
+            border-radius: 50%;
+        }
+
+        .company-name {
+            font-weight: bold;
+            font-family: $headingFont;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .company-name {
+                color: $dark-companyNameColor;
+            }
+        }
+
+        .company-url {
+            font-style: italic;
+            font-size: small;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 5px;
+        text-align: center;
+        border-bottom: 1px solid;
+        border-left: 0px;
+
+        @media (min-width: 768px){
+            border-bottom: 0;
+            border-left: 1px solid;
+            text-align: start;
+        	padding: 0px 20px;
+        }
+
+        .title {
+            font-size: large;
+            font-weight: bold;
+            font-family: $headingFont;
+        }
+        @media (prefers-color-scheme: light) {
+            .title {
+                color: $light-titleColor;
+            }
+        }
+        @media (prefers-color-scheme: dark) {
+            .title {
+                color: $dark-titleColor;
+            }
+        }
+
+        .tenure {
+            font-size: small;
+        }
+    }
+}
