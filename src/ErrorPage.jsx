@@ -1,8 +1,8 @@
-import { useRouteError } from "react-router-dom";
+import { useRouteError, Link } from "react-router-dom";
 
 export default function ErrorPage() {
 	const error = useRouteError();
-	
+
 	const errorMessages = [
 		"Well, that's sad...",
 		"Yer an error, Harry!",
@@ -12,6 +12,7 @@ export default function ErrorPage() {
 		"Abort, Retry, Ignore, Chocolate.",
 		"Oh no!",
 		"It's not you, it's us. Okay, maybe it's you.",
+		":(",
 	];
 
 	const errorDetails = [
@@ -38,6 +39,15 @@ export default function ErrorPage() {
 			<p className="tw-text-sm tw-font-extralight">
 				{error.status}: {error.statusText || error.message}
 			</p>
+			<Link to={"/"}>
+				<button className="main-button tw-m-5">Home</button>
+			</Link>
+			<div
+				style={{ position: "absolute", bottom: "10px" }}
+				className="tw-text-xs tw-font-extralight tw-text-gray-500"
+			>
+				<Link>Psst! Click here for another error message!</Link>
+			</div>
 		</div>
 	);
 }
