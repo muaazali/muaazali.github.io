@@ -8,19 +8,20 @@ import {
 	SiPython,
 	SiAmazonaws,
 } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 export default function Home() {
 	return (
 		<div className="tw-w-full tw-h-full tw-flex tw-justify-center tw-items-center tw-flex-col">
 			<div className="md:tw-flex md:tw-justify-around md:tw-items-center md:tw-w-full md:tw-flex-row-reverse">
-				<div>
+				<div className="tw-flex tw-justify-center">
 					<img
 						src="images/home-pic.jpg"
-						className="tw-w-64 tw-h-64 tw-rounded-full"
+						className="tw-w-64 tw-h-64 tw-rounded-full tw-border-2 tw-border-sky-400"
 					></img>
 				</div>
 				<div>
-					<div className="tw-text-2xl tw-font-extralight">
+					<div className="tw-text-2xl tw-font-extralight tw-text-center md:tw-text-start">
 						<span>I'm a </span>
 						<span className="tw-font-bold tw-text-3xl tw-text-sky-400">
 							Software Engineer
@@ -39,7 +40,13 @@ export default function Home() {
 							<SiAmazonaws></SiAmazonaws>
 						</div>
 					</div>
-					<div>Portfolio stuff here.</div>
+					<div className="tw-mt-8">
+						<Link to={"/projects"}>
+							<button className="long-button tw-text-xl tw-font-semibold">
+								My Projects
+							</button>
+						</Link>
+					</div>
 				</div>
 			</div>
 		</div>
