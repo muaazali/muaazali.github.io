@@ -6,23 +6,23 @@
   "description": "A fun and cute idle business simulator with a story about a pizza shop owner. It includes a lot of shop customization options and a lot of different customers with different personalities. It also includes multiple minigames apart from the main game to pass the time and earn some more rewards.",
   "logoUrl": "https://i.imgur.com/pfdOCg5.png",
   "bannerUrl": "https://i.imgur.com/r1kDfEy.png",
-  "playStoreUrl": "",
-  "appStoreUrl": "",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.ethlas.komocafe.idle_sim&hl=en&gl=US",
+  "appStoreUrl": "https://apps.apple.com/sg/app/my-pizza-story/id6445882606",
   "paragraphs": [
     {
       "heading": "Overview",
-      "imageUrl": "",
-      "text": "TBD."
+      "imageUrl": "https://i.imgur.com/tVtQUaY.png",
+      "text": "My Pizza Story is the ultimate animal restaurant management and cafe cooking game! Run your own pizza restaurant, unleash your creativity with unique recipes, and serve delightful pizzas to your customers. Take control of every aspect of your pizzeria, from training your staff to expanding your empire!"
     },
     {
-      "heading": "Featureset",
-      "imageUrl": "",
-      "text": "TBD."
+      "heading": "What to expect from the game?",
+      "imageUrl": "https://i.imgur.com/XnL7xG4.png",
+      "text": "My Pizza Story provides users with a unique experience of running a restaurant as a \"komo\". It provides an epic progression system where you can level up your pizzeria and cafe to unlock more recipes, meet new customers, and play unique minigames! You can hire and train your staff to serve your customers better and faster. You can also customize your shop with different furniture sets and decorations to make it look unique and stand out from the rest and show it off to your friends."
     },
     {
       "heading": "What did I work on?",
-      "imageUrl": "",
-      "text": "TBD."
+      "imageUrl": "https://i.imgur.com/QbS3DIf.png",
+      "text": "This was the very first project I worked on when I joined Ethlas. Although I was working part-time at the start during my notice period at RipeSeed, I was able to contribute a lot to the project. I worked on the fishing minigame in the very beginning and then moved on to work on the main game. I worked on the UI, the shop customization, the customer personalities, the customer animations, the customer interactions, the customer dialogue, the customer orders, the customer rewards, the customer progression, adding in new furniture sets, and a completely separate Merge-2 minigame integrated inside of this game! The Merge-2 minigame was the biggest feature I deployed into the game and it took a lot of thinking in terms of system architecture and game design since the minigame in itself is a separate game."
     }
   ]
 }
