@@ -6,23 +6,32 @@
   "description": "A 2D multiplayer shooter game where up to 8 players compete against each other in a free for all or team battles. There is a vast number of characters to choose from and each character has a unique ability. It also includes some NFT characters provided to the game by Ethlas's ReadyNFT.",
   "logoUrl": "https://i.imgur.com/x0Tlbeb.png",
   "bannerUrl": "https://i.imgur.com/Ox6pv62.jpg",
-  "playStoreUrl": "asd",
-  "appStoreUrl": "asd",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.ethlas.battleshowdown.pvp&hl=en_US",
+  "appStoreUrl": "https://apps.apple.com/us/app/battle-showdown/id6449960347",
   "paragraphs": [
     {
       "heading": "Overview",
       "imageUrl": "https://i.imgur.com/4Ct13wt.png",
-      "text": "Test overview."
+      "text": "Battle Showdown is Ethlas' top of the line multiplayer game. It is a 2D multiplayer shooter game where up to 8 players compete against each other in a free for all or team battles. There is a vast number of characters to choose from and each character has a unique ability. It also includes some NFT characters provided to the game by Ethlas's ReadyNFT."
     },
     {
       "heading": "Featureset",
       "imageUrl": "https://i.imgur.com/HeibnWn.png",
-      "text": "Test featureset."
+      "text": "Oh boy, what to tell you about the features. This games includes a lot of things. From varying cosmetic options where you can put on a cloak of fire, or have a flying yak follow you around to actually having a chance to get your own NFT character in-game, this game is packed with content! Here are some of the interesting features:",
+      "list": [
+        "Fast-paced multiplayer action experience",
+        "A vast number of characters to choose from",
+        "Unique weapons for each character",
+        "A lot of cosmetics!",
+        "NFT characters provided by Ethlas's ReadyNFT",
+        "A lot of maps to play on",
+        "Multiple gamemodes to play, including a custom game mode where you can play with your friends"
+      ]
     },
     {
       "heading": "What did I work on?",
       "imageUrl": "https://i.imgur.com/c78r7Kq.png",
-      "text": "Test my responsibilities."
+      "text": "So what did I do? Well, I did a lot of things. I was responsible for the revamping of the game architecture from a legacy codebase to a new one. I designed complex systems including the first-time user, cosmetics system, backend on Firebase and a bunch of other things, too! Not only that, I also revamped the entire UI of the game after the revamp of the code."
     }
   ]
 }

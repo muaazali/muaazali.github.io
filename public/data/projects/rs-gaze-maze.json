@@ -3,26 +3,34 @@
   "title": "Gaze Maze",
   "technologies": "Unity, C#, Firebase",
   "shortDescription": "A 3D puzzle game with an over-the-shoulder camera view.",
-  "description": "A 2D multiplayer shooter game where up to 8 players compete against each other in a free for all or team battles. There is a vast number of characters to choose from and each character has a unique ability. It also includes some NFT characters provided to the game by Ethlas's ReadyNFT.",
+  "description": "A 3D puzzle game with an over-the-shoulder camera view. The player must navigate a maze by looking at the walls to reveal the path. The player must also avoid the obstacles (or trick-walls as I named the variables hehe) in order to complete the level under time.",
   "logoUrl": "https://i.imgur.com/wsuX7LM.png",
   "bannerUrl": "https://i.imgur.com/n5wiHXQ.png",
-  "playStoreUrl": "",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.ripeseed.gaze_maze&hl=en_US",
   "appStoreUrl": "",
   "paragraphs": [
     {
       "heading": "Overview",
-      "imageUrl": "",
-      "text": "Test overview."
+      "imageUrl": "https://i.imgur.com/2Bpfa2Q.png",
+      "text": "Gaze Maze is a 3D maze game where users have to figure out the way to the end-point in the shortest amount of time. Collect coins along the way which can then be used to unlock three different types of powerups. Try to not hit the walls or you will find yourself losing a lot of valuable time! Each level is filled with beautifully crafted backgrounds and level design. These levels are designed to be bite-sized puzzles."
     },
     {
       "heading": "Featureset",
-      "imageUrl": "",
-      "text": "Test featureset."
+      "imageUrl": "https://i.imgur.com/A1kHsDv.png",
+      "text": "Here are the following features available right now:",
+      "list": [
+        "Beautiful gradient levels.",
+        "Minimalistic colors and elements.",
+        "Fun puzzles to enjoy playing with family.",
+        "Power-ups.",
+        "Obstacles and Portals.",
+        "And so much more!"
+      ]
     },
     {
       "heading": "What did I work on?",
-      "imageUrl": "",
-      "text": "Test my responsibilities."
+      "imageUrl": "https://i.imgur.com/XWqwm1u.png",
+      "text": "This game was my brainchild. My first ever project at RipeSeed. During my time at RipeSeed, I worked on this game for over a year before it was finally released (because we released other games in the meanwhile so had to work on them). I was responsible for the idea, the game design, level generation, coding the map generator tool, and basically just making the game from scratch. After setting up the base of the game and releasing the first couple of versions, I served as the project lead and oversaw the development of this game as other developers worked on it."
     }
   ]
 }

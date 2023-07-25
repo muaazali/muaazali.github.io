@@ -35,9 +35,6 @@ export default function ProjectDetail() {
           <span className="tw-text-sm tw-text-gray-400">
             {projectData.technologies}
           </span>
-          <p className="tw-text-jusify tw-mt-2 tw-text-sm">
-            {projectData.description}
-          </p>
           <div className="tw-mt-10">
             {projectData.paragraphs.map((paragraph, index) => (
               <div className="tw-grid md:tw-grid-cols-2 tw-gap-2 tw-my-10">
@@ -49,29 +46,19 @@ export default function ProjectDetail() {
                   <img src={paragraph.imageUrl} className="tw-rounded"></img>
                 </div>
                 <div>
-                  <h3
-                    className={`tw-text-3xl tw-font-semibold ${
-                      index % 2 == 0 ? "tw-text-left" : "tw-text-right"
-                    }`}
-                  >
+                  <h3 className={`tw-text-3xl tw-font-semibold tw-text-start`}>
                     {paragraph.heading}
                   </h3>
                   <div className="tw-text-justify">
-                    <p>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Maxime ab temporibus odio rerum numquam cumque nulla, quis
-                      veniam asperiores tempore velit, consequuntur tenetur id!
-                      Error reiciendis recusandae nemo dicta tempora. Lorem
-                      ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                      facere nesciunt distinctio delectus consectetur maxime
-                      eligendi, vero tenetur expedita sint optio, est deserunt
-                      suscipit cupiditate officiis reiciendis laudantium
-                      perferendis illo.
-                    </p>
+                    <p>{paragraph.text}</p>
                     {index == 0 && (
                       <div className="tw-flex tw-items-center tw-justify-start tw-flex-wrap">
                         {projectData.playStoreUrl && (
-                          <Link className="tw-block tw-max-w-fit">
+                          <Link
+                            className="tw-block tw-max-w-fit"
+                            to={projectData.playStoreUrl}
+                            target="_blank"
+                          >
                             <img
                               src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
                               width="200px"
@@ -80,7 +67,11 @@ export default function ProjectDetail() {
                         )}
 
                         {projectData.appStoreUrl && (
-                          <Link className="tw-block tw-max-w-fit">
+                          <Link
+                            className="tw-block tw-max-w-fit"
+                            to={projectData.appStoreUrl}
+                            target="_blank"
+                          >
                             <img
                               src="https://i.imgur.com/WIpgMmK.png"
                               width="177px"
@@ -88,6 +79,13 @@ export default function ProjectDetail() {
                           </Link>
                         )}
                       </div>
+                    )}
+                    {paragraph.list && (
+                      <ul className="tw-list-disc tw-list-inside">
+                        {paragraph.list.map((item) => (
+                          <li>{item}</li>
+                        ))}
+                      </ul>
                     )}
                   </div>
                 </div>
