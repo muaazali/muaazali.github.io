@@ -5,11 +5,14 @@ import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
 	return (
-		<div className="tw-w-screen tw-h-screen">
-			<Navbar></Navbar>
-			<Outlet></Outlet>
-		</div>
-	);
+    <div className="tw-w-screen tw-h-screen tw-overflow-auto">
+      <Navbar></Navbar>
+      <Outlet></Outlet>
+      <p className="tw-text-center tw-m-5 tw-text-sm tw-text-gray-500">
+        Website is still under construction.
+      </p>
+    </div>
+  );
 }
 
 export default App;

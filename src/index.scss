@@ -12,6 +12,7 @@ body {
   background: rgb(29,29,38);
   background: radial-gradient(circle, rgba(29,29,38,1) 0%, rgba(12,12,22,1) 100%);
   color: white;
+  overflow-y: hidden;
 }
 
 code {
@@ -28,25 +29,43 @@ code {
   padding: 10px 20px;
   background-color: rgb(56 189 248);
   border-radius: 5px;
-  transition-duration: 0.2s;
+  transition-duration: 0.1s;
 }
 
 .main-button:hover {
-  background-color: hsl(211deg 52% 16%);
+  background-color: hsl(211, 53%, 43%);
 }
 
 .long-button {
   padding: 10px 40px;
   background-color: rgb(56 189 248);
   border-radius: 5px;
-  transition-duration: 0.2s;
+  transition-duration: 0.1s;
   color: white;
 }
 
 .long-button:hover {
-  background-color: hsl(211deg 52% 16%);
+  background-color: hsl(211, 53%, 43%);
 }
 
 .seperate-icons * {
   margin-right: 10px;
+}
+
+::-webkit-scrollbar{
+	width: 10px;
+}
+
+::-webkit-scrollbar-track-piece{
+	background-color: rgba(0,0,0,0);
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: rgba(56, 189, 248, 0.2);
+	border: 0px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color: #909090;
 }
