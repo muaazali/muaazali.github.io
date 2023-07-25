@@ -28,7 +28,7 @@ export default function ProjectTile(props) {
             : "md:tw-order-last"
         } `}
       >
-        <img src={projectData.bannerUrl}></img>
+        <img src={projectData.bannerUrl} className="tw-rounded"></img>
       </div>
       <div
         className={`tw-col-span-1 tw-text-center ${

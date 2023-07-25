@@ -33,6 +33,7 @@ export default function Projects() {
                 );
               })}
           </div>
+          <p className="tw-text-center">More to be added soon.</p>
         </div>
       </div>
     </div>

@@ -28,7 +28,11 @@ export default function ProjectDetail() {
     <div className="tw-w-100 tw-flex tw-flex-col tw-items-center">
       <div className="tw-bg-gray-800 tw-rounded tw-mx-10 tw-mt-20 tw-p-5 lg:tw-w-3/4">
         <div className={`tw-flex tw-justify-center`}>
-          <img src={projectData.bannerUrl} width="500"></img>
+          <img
+            src={projectData.bannerUrl}
+            width="500"
+            className="tw-rounded"
+          ></img>
         </div>
         <div className={`tw-col-span-1 tw-text-center`}>
           <h1 className="tw-text-4xl tw-font-bold">{projectData.title}</h1>
@@ -39,7 +43,7 @@ export default function ProjectDetail() {
             {projectData.paragraphs.map((paragraph, index) => (
               <div className="tw-grid md:tw-grid-cols-2 tw-gap-2 tw-my-10">
                 <div
-                  className={`tw-p-5 ${
+                  className={`tw-p-5 tw-flex tw-justify-center ${
                     index % 2 == 0 ? "md:tw-order-first" : "md:tw-order-last"
                   }`}
                 >
