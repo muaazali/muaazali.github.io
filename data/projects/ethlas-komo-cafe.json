@@ -1,0 +1,28 @@
+{
+  "id": "ethlas-komo-cafe",
+  "title": "My Pizza Story",
+  "technologies": "Unity, C#, Firebase",
+  "shortDescription": "An idle business simulator with loads of customization options.",
+  "description": "A fun and cute idle business simulator with a story about a pizza shop owner. It includes a lot of shop customization options and a lot of different customers with different personalities. It also includes multiple minigames apart from the main game to pass the time and earn some more rewards.",
+  "logoUrl": "https://i.imgur.com/pfdOCg5.png",
+  "bannerUrl": "https://i.imgur.com/r1kDfEy.png",
+  "playStoreUrl": "",
+  "appStoreUrl": "",
+  "paragraphs": [
+    {
+      "heading": "Overview",
+      "imageUrl": "",
+      "text": "Test overview."
+    },
+    {
+      "heading": "Featureset",
+      "imageUrl": "",
+      "text": "Test featureset."
+    },
+    {
+      "heading": "What did I work on?",
+      "imageUrl": "",
+      "text": "Test my responsibilities."
+    }
+  ]
+}

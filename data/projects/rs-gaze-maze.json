@@ -1,0 +1,28 @@
+{
+  "id": "rs-gaze-maze",
+  "title": "Gaze Maze",
+  "technologies": "Unity, C#, Firebase",
+  "shortDescription": "A 3D puzzle game with an over-the-shoulder camera view.",
+  "description": "A 2D multiplayer shooter game where up to 8 players compete against each other in a free for all or team battles. There is a vast number of characters to choose from and each character has a unique ability. It also includes some NFT characters provided to the game by Ethlas's ReadyNFT.",
+  "logoUrl": "https://i.imgur.com/wsuX7LM.png",
+  "bannerUrl": "https://i.imgur.com/n5wiHXQ.png",
+  "playStoreUrl": "",
+  "appStoreUrl": "",
+  "paragraphs": [
+    {
+      "heading": "Overview",
+      "imageUrl": "",
+      "text": "Test overview."
+    },
+    {
+      "heading": "Featureset",
+      "imageUrl": "",
+      "text": "Test featureset."
+    },
+    {
+      "heading": "What did I work on?",
+      "imageUrl": "",
+      "text": "Test my responsibilities."
+    }
+  ]
+}

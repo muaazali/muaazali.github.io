@@ -1,0 +1,28 @@
+{
+  "id": "ethlas-bsd",
+  "title": "Battle Showdown",
+  "technologies": "Unity, C#, Photon, Firebase",
+  "shortDescription": "A 2D multiplayer shooter game with NFT characters.",
+  "description": "A 2D multiplayer shooter game where up to 8 players compete against each other in a free for all or team battles. There is a vast number of characters to choose from and each character has a unique ability. It also includes some NFT characters provided to the game by Ethlas's ReadyNFT.",
+  "logoUrl": "https://i.imgur.com/x0Tlbeb.png",
+  "bannerUrl": "https://i.imgur.com/Ox6pv62.jpg",
+  "playStoreUrl": "asd",
+  "appStoreUrl": "asd",
+  "paragraphs": [
+    {
+      "heading": "Overview",
+      "imageUrl": "https://i.imgur.com/4Ct13wt.png",
+      "text": "Test overview."
+    },
+    {
+      "heading": "Featureset",
+      "imageUrl": "https://i.imgur.com/HeibnWn.png",
+      "text": "Test featureset."
+    },
+    {
+      "heading": "What did I work on?",
+      "imageUrl": "https://i.imgur.com/c78r7Kq.png",
+      "text": "Test my responsibilities."
+    }
+  ]
+}
