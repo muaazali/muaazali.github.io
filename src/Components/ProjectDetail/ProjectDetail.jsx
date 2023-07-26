@@ -47,7 +47,10 @@ export default function ProjectDetail() {
                     index % 2 == 0 ? "md:tw-order-first" : "md:tw-order-last"
                   }`}
                 >
-                  <img src={paragraph.imageUrl} className="tw-rounded"></img>
+                  <img
+                    src={paragraph.imageUrl}
+                    className="tw-rounded tw-object-contain"
+                  ></img>
                 </div>
                 <div>
                   <h3 className={`tw-text-3xl tw-font-semibold tw-text-start`}>
