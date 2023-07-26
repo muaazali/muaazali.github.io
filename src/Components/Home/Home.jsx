@@ -11,13 +11,11 @@ import {
 import { Link } from "react-router-dom";
 import Featured from "../Featured/Featured";
 import Typewriter from "typewriter-effect";
-import Projects from "../Projects/Projects";
 
 export default function Home() {
-  const [counter, setCounter] = useState(-2);
-  const incrementCounter = () => {
-    setCounter((c) => (c + 1) % 6);
-  };
+  const [gameDevTabs, setGameDevTabs] = useState(true);
+  const [webDevTabs, setWebDevTabs] = useState(false);
+  const [softwareDevTabs, setSoftwareDevTabs] = useState(false);
 
   return (
     <>
@@ -25,7 +23,7 @@ export default function Home() {
         <div className="md:tw-flex md:tw-justify-around md:tw-items-center md:tw-w-full md:tw-flex-row-reverse">
           <div className="md:tw-flex tw-justify-center tw-relative tw-hidden">
             <div
-              className={`${counter == 0 ? "tw-opacity-100" : "tw-opacity-0"}`}
+              className={`${gameDevTabs ? "tw-opacity-100" : "tw-opacity-0"}`}
             >
               <iframe
                 src="https://giphy.com/embed/SIRw6DmCXYbqRhTdL2"
@@ -37,7 +35,7 @@ export default function Home() {
               ></iframe>
             </div>
             <div
-              className={`${counter == 2 ? "tw-opacity-100" : "tw-opacity-0"}`}
+              className={`${webDevTabs ? "tw-opacity-100" : "tw-opacity-0"}`}
               style={{ position: "absolute", top: "0", left: "0" }}
             >
               <iframe
@@ -50,7 +48,9 @@ export default function Home() {
               ></iframe>
             </div>
             <div
-              className={`${counter == 4 ? "tw-opacity-100" : "tw-opacity-0"}`}
+              className={`${
+                softwareDevTabs ? "tw-opacity-100" : "tw-opacity-0"
+              }`}
               style={{ position: "absolute", top: "0", left: "0" }}
             >
               <iframe
@@ -86,19 +86,25 @@ export default function Home() {
                     typewriter
                       .typeString("Game Developer.")
                       .callFunction(() => {
-                        incrementCounter();
+                        setGameDevTabs(true);
+                        setWebDevTabs(false);
+                        setSoftwareDevTabs(false);
                       })
                       .pauseFor(2500)
                       .deleteAll()
                       .typeString("Web Developer.")
                       .callFunction(() => {
-                        incrementCounter();
+                        setGameDevTabs(false);
+                        setWebDevTabs(true);
+                        setSoftwareDevTabs(false);
                       })
                       .pauseFor(2500)
                       .deleteAll()
                       .typeString("Software Engineer!")
                       .callFunction(() => {
-                        incrementCounter();
+                        setGameDevTabs(false);
+                        setWebDevTabs(false);
+                        setSoftwareDevTabs(true);
                       })
                       .pauseFor(2500)
                       .deleteAll()
@@ -110,7 +116,7 @@ export default function Home() {
             <div className="tw-text-3xl tw-py-2 tw-flex tw-text-gray-700">
               <div
                 className={`tw-flex tw-justify-center seperate-icons md:tw-justify-start tw-transition-colors ${
-                  (counter == 0 || counter == 4) && "tw-text-white"
+                  gameDevTabs && "tw-text-white"
                 }`}
               >
                 <SiUnity></SiUnity>
@@ -123,7 +129,7 @@ export default function Home() {
               </div>
               <div
                 className={`tw-flex tw-justify-center seperate-icons md:tw-justify-start tw-transition-colors ${
-                  (counter == 2 || counter == 4) && "tw-text-white"
+                  webDevTabs && "tw-text-white"
                 }`}
               >
                 {/* <SiUnity></SiUnity> */}
@@ -136,7 +142,7 @@ export default function Home() {
               </div>
               <div
                 className={`tw-flex tw-justify-center seperate-icons md:tw-justify-start tw-transition-colors ${
-                  counter == 4 && "tw-text-white"
+                  softwareDevTabs && "tw-text-white"
                 }`}
               >
                 {/* <SiUnity></SiUnity> */}
