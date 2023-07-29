@@ -49,7 +49,7 @@ export default function ProjectDetail() {
                 >
                   <img
                     src={paragraph.imageUrl}
-                    className="tw-rounded tw-object-contain"
+                    className="tw-rounded tw-object-contain tw-max-h-80"
                   ></img>
                 </div>
                 <div>

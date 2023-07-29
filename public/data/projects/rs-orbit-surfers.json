@@ -1,0 +1,28 @@
+{
+  "id": "rs-orbit-surfers",
+  "title": "Orbit Surfers",
+  "technologies": "Unity, C#",
+  "shortDescription": "A hypercasual game with tap mechanics where you surf around the planets in space.",
+  "description": "Explore a wide variety of planets as you surf around them in space. Avoid obstacles and use a planet's gravity to your own advantage! This hypercasual game takes player through a journey of space while providing Flappy Bird like gameplay.",
+  "logoUrl": "https://i.imgur.com/pKLTHP9.png",
+  "bannerUrl": "https://i.imgur.com/IwZUxfS.png",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.ripeseed.orbitsurfers&hl=en&gl=US",
+  "appStoreUrl": "",
+  "paragraphs": [
+    {
+      "heading": "Overview",
+      "imageUrl": "https://i.imgur.com/7ScrsWR.png",
+      "text": "Be the astronaut in outer space in this Orbit Surfers and start your journey from Earth to explore different planets and unknown entities in space. The game is based on real-world techniques of space travel in which gravity of planets is used to accelerate the rocket from one planet to another. Focus, as the timing is everything you require to be the ultimate orbit surfer and wander across the space in your spaceship. Your rocket boosters will let you travel far across the galaxy and introduce you to many new planets (coming soon). This free space 2D space explorer game has a lot of features planned for later updates but for now, enjoy surfing the orbits of different planets."
+    },
+    {
+      "heading": "So what's this game got?",
+      "imageUrl": "https://i.imgur.com/cgMTvMj.png",
+      "text": "Being a hypercasual game, Orbit Surfers comprises only of tap-to-shoot mechanics where you tap on the screen to shoot your rocket boosters and move your spaceship. The game takes inspiration from real-world techniques of space travel in which gravity of planets is used to accelerate the rocket from one planet to another. The game is currently in early access and has only a few planets to explore. More planets and features like Black Holes will be added in the future."
+    },
+    {
+      "heading": "What did I work on?",
+      "imageUrl": "https://i.imgur.com/WyGTJGm.png",
+      "text": "\"We need a game on our Play Store account\", said RipeSeed's CEO. And so I started working on this game. I was responsible for driving the entire development of the game. While not having worked on mechanics of the game itself, I served as the lead developer and integrated a few plugins to make the game work. I also worked on the UI of the game and the game's store page. I was also responsible for helping set up the CI/CD pipeline to deploy automatic updates to the Play Store."
+    }
+  ]
+}
