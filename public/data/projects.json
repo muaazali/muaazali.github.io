@@ -1,5 +1,11 @@
 {
-  "gameProjects": ["ethlas-bsd", "ethlas-komo-cafe", "rs-gaze-maze"],
+  "gameProjects": [
+    "ethlas-bsd",
+    "ethlas-komo-cafe",
+    "rs-gaze-maze",
+    "rs-orbit-surfers",
+    "rs-spooky-sphere"
+  ],
   "webProjects": [],
   "otherProjects": []
 }
