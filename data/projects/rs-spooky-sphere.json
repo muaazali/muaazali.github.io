@@ -1,0 +1,36 @@
+{
+  "id": "rs-spooky-sphere",
+  "title": "Spooky Sphere",
+  "technologies": "Unity, C#",
+  "shortDescription": "A 2D puzzle game with only two buttons mechanic.",
+  "description": "A 2D puzzle game with only two buttons to control the character. Avoid complex and fun obstacles to guide the spooky sphere to the end of the level!",
+  "logoUrl": "https://i.imgur.com/WyNHX6M.png",
+  "bannerUrl": "https://i.imgur.com/9qWSVjC.png",
+  "playStoreUrl": "https://play.google.com/store/apps/details?id=com.ripeseed.gaze_maze&hl=en_US",
+  "appStoreUrl": "",
+  "paragraphs": [
+    {
+      "heading": "Overview",
+      "imageUrl": "https://i.imgur.com/WZ2Dzpy.png",
+      "text": "Spooky Sphere is a thrilling horror-based puzzle game that will keep you on the edge of your seat! As the player, you must maneuver your character through a spooky puzzle board using the directional buttons: up, down, left, and right. However, the challenge doesn't end there! The directional buttons will change over time, adding an extra level of complexity to the game. With each level, the puzzles become increasingly difficult, and the atmosphere grows more ominous. Can you solve the puzzles and make it to the end without getting too spooked? The game is sure to keep you entertained for hours with its unique blend of horror and puzzle-solving gameplay."
+    },
+    {
+      "heading": "So what's this game got?",
+      "imageUrl": "https://i.imgur.com/SJhw8jZ.png",
+      "text": "Some of the features include:",
+      "list": [
+        "A spooky atmosphere that will keep you on the edge of your seat",
+        "A unique blend of horror and puzzle-solving gameplay",
+        "A variety of challenging puzzles to solve",
+        "A simple control scheme that is easy to learn",
+        "A variety of obstacles to avoid",
+        "A variety of skins to unlock"
+      ]
+    },
+    {
+      "heading": "What did I work on?",
+      "imageUrl": "https://i.imgur.com/a6sWmx3.png",
+      "text": "What started off as a simple game jam project for the Two Button Game Jam turned into a full-fledged game after approval from the lead. I worked on setting up the base of the game, loading up the levels, creating obstacles and UI elements, and setting up the game logic. I also worked on the game's art style and the overall look and feel of the game. I was also responsible for implementing rewarded ads into the game."
+    }
+  ]
+}
